@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<title>Quiz</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <button id="restartButton">Opnieuw</button>
+ <button id="stopButton">Stop</button>
+
+ 
+<h1>SSL vragen:<span id="score">Score: 0 (0%)</span></h1>
+<div id="question"></div>
+<img id="qimg" src="" style="display:none;">
+<div id="answer-buttons"></div>
+<button id="next-btn" style="display:none">Volgende</button>
+<div id="jump-controls">
+  <label for="jumpTo">Ga naar vraag:</label>
+  <input type="number" id="jumpTo" min="1" style="width: 60px;">
+  <button id="jumpBtn">Toon</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
